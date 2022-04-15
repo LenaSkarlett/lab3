@@ -19,7 +19,11 @@ html(lang="ru-RU")
 		<![endif]-->
 	body(class=pageClass)
 		.wrapper
-			include ../modules/header	
+			include ../modules/header
+				.menu_up
+					block menu_up
+				include ../modules/menu
+				
 				.content
 					block content
 				include ../modules/footer
