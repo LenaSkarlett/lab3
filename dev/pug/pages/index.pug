@@ -6,12 +6,13 @@ block variables
 
 block content
 	.block1
-		.element__text 
-			p.name__person#home Denis <br> Novik
-			p.name__info_person UX | UI designer <br> 24 years old, Minsk
-			p.name__language RU | ENG
-		.element__image
-			img.photo__persons(src="static/img/content/img0.png")
-	
-	span(class="test") Test span
-	p.red Some text #[a(href="#") Link22]
+		.block1__persontext 
+			p.block1__persontext_person#home Denis <br> Novik
+			p.block1__persontext_info UX | UI designer <br> 24 years old, Minsk
+			p.block1__persontext_language RU | ENG
+		.block1__personimage
+			img.block1__personimage_photo(src="static/img/content/img0.png")
+	.block4
+		p.block4__chapter#portfolio Portfolio
+		img.block4__photobig(src="static/img/content/img1.png")
+		a.block4__underline(href="#homepage") Online fashion store – Homepage
